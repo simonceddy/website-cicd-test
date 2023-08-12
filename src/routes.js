@@ -1,6 +1,9 @@
 import { createRef } from 'react';
 import Home from './pages/Home';
 import Audio from './pages/Audio';
+import Coding from './pages/Coding';
+import Music from './pages/Music';
+import Contact from './pages/Contact';
 
 const routes = [
   {
@@ -14,7 +17,7 @@ const routes = [
     key: 'coding',
     nodeRef: createRef(),
     path: '/coding',
-    element: <div>Heyyyy</div>,
+    element: <Coding />,
     label: 'coding',
   },
   {
@@ -28,14 +31,14 @@ const routes = [
     key: 'music',
     nodeRef: createRef(),
     path: '/music',
-    element: <div>tunes</div>,
+    element: <Music />,
     label: 'music',
   },
   {
     key: 'contact',
     nodeRef: createRef(),
     path: '/contact',
-    element: <div>hello</div>,
+    element: <Contact />,
     label: 'contact',
   },
 ];
