@@ -1,13 +1,16 @@
+import PageContent from '../components/PageContent';
 import PageLayout from '../components/PageLayout';
 import PageTitle from '../components/PageTitle';
 
-function Audio({ children }) {
+function Audio() {
   return (
     <PageLayout>
       <PageTitle>
         Audio
       </PageTitle>
-      {children}
+      <PageContent>
+        Stuff about sound. Stuff about ableton, stuff about plugins.
+      </PageContent>
     </PageLayout>
   );
 }

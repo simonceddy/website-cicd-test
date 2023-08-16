@@ -4,6 +4,7 @@ import Audio from './pages/Audio';
 import Coding from './pages/Coding';
 import Music from './pages/Music';
 import Contact from './pages/Contact';
+import Who from './pages/Who';
 
 const routes = [
   {
@@ -12,6 +13,13 @@ const routes = [
     path: '/',
     element: <Home />,
     label: 'home',
+  },
+  {
+    key: 'who',
+    nodeRef: createRef(),
+    path: '/who',
+    element: <Who />,
+    label: 'who?',
   },
   {
     key: 'coding',

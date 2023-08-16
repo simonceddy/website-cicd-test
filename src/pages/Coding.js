@@ -1,13 +1,16 @@
+import PageContent from '../components/PageContent';
 import PageLayout from '../components/PageLayout';
 import PageTitle from '../components/PageTitle';
 
-function Coding({ children }) {
+function Coding() {
   return (
     <PageLayout>
       <PageTitle>
         Coding
       </PageTitle>
-      {children}
+      <PageContent>
+        Stuff about PHP, javascript, React.
+      </PageContent>
     </PageLayout>
   );
 }

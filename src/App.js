@@ -12,10 +12,10 @@ function App() {
 
   return (
     <div className="w-full h-full col justify-start items-start bg-blue-200 dark:text-teal-100 dark:bg-blue-950 text-black">
-      <header className="row w-full items-start h-[10%] sm:h-[19%] justify-start">
+      <header className="row w-full items-start h-[10%] sm:h-[15%] justify-start">
         <AppHeading />
       </header>
-      <div className="col sm:row flex-1 w-full h-[90%] sm:h-[81%]">
+      <div className="col sm:row flex-1 w-full h-[90%] sm:h-[85%]">
         <div className="col relative bg-lime-300/20 dark:bg-lime-800/20">
           <Navbar />
         </div>

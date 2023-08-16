@@ -2,17 +2,17 @@ import PageContent from '../components/PageContent';
 import PageLayout from '../components/PageLayout';
 import PageTitle from '../components/PageTitle';
 
-function Music() {
+function Who() {
   return (
     <PageLayout>
       <PageTitle>
-        Music
+        Who?
       </PageTitle>
       <PageContent>
-        Stuff about music
+        Who is this?
       </PageContent>
     </PageLayout>
   );
 }
 
-export default Music;
+export default Who;
